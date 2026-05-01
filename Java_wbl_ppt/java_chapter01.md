@@ -1,17 +1,18 @@
-#Objects
+# Objects
 
-##Behavior/Operations/Methods
+## Behavior/Operations/Methods
 
--**Object behavior** includes:
-1.**accessing** its own attributes.
-2.**modifying** its attributes.
+**Object behavior** includes:  
+1. **accessing** its own attributes.
+2. **modifying** its attributes.
 
--**Operations = Services"
--Operation are services accessible to clients, which is a manifestation for encapsulation. 
+- **Operations = Services**
+- Operation are services accessible to clients, which is a manifestation for encapsulation. 
 
-#Class
+# Class
 
-##class is an abstract collection of objects sharing common attributes and behaviors.
+- class is an abstract collection of objects sharing common 
+   attributes and behaviors.
 
--class = model
--object = example
+- class = model
+- object = example
