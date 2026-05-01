@@ -7,7 +7,7 @@
 2.**modifying** its attributes.
 
 -**Operations = Services"
--Operation are services accessible to clients, which is a manifestation fo encapsulation. 
+-Operation are services accessible to clients, which is a manifestation for encapsulation. 
 
 #Class
 
