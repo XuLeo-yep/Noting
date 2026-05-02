@@ -91,4 +91,6 @@ new StringTokenizer(s,",;")'
 - 1. After declaration, reference variable is null in the Heap memory.
 - 2. Creation : The keyword **new** triggers the constructor of the specific class, and return the reference address to the variable via operator " = "
 ---
-
+# API
+- represents an extensive Java library.
+- **java.lang** is the only package imported implicitly into every Java projects.
