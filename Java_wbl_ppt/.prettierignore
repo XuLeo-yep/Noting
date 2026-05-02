@@ -1,0 +1,31 @@
+# 忽略所有 .md 文件
+*.md
+
+# 如果你想忽略特定的 md 文件（如 README），也可以这样写
+# README.md
+
+# --- 依赖与构建 ---
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# --- 锁定文件 ---
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- 你的需求 ---
+# 忽略所有 Markdown 文件
+*.md
+
+# --- 其他 ---
+# 压缩文件
+*.min.js
+*.min.css
+# 图片资源
+*.svg
+*.png
+*.jpg
