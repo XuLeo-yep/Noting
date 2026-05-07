@@ -81,7 +81,7 @@ new StringTokenizer(s,",;")'
 ---
 - **Class** is the abstraction of some objects sharing the same attributes and operation.
 ---
-- **Composition**
+- **Composition/Association**
 - advantages: 
   - 1. avoids data redundancy 
   - 2. maintain data integrity
