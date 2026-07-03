@@ -27,7 +27,7 @@ public class Order {
 # has-many
 
 **Aggregation vs Composition**
-1. Aggregation(**weak**): the part still exists even the whole is destroyed.
+1. #### Aggregation(**weak**): the part still exists even the whole is destroyed.
 ###### UML表示：**空心**菱形 + 实线（菱形靠近“整体”那一端）。
 
 ```java
@@ -42,7 +42,7 @@ public class Department {
 }
 ```
 
-2. Composition(**strong**): the part can not exists without the whole.
+2. #### Composition(**strong**): the part can not exists without the whole.
 ###### UML表示：**实心**菱形 + 实线（菱形靠近“整体”那一端）。
 
 ```java

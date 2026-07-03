@@ -32,6 +32,5 @@
     - boolean  
    - reference types
     - String
-  1. An integer literal is of type long if it ends with the letter **L or l**; otherwise it is of type int.
-  2. A floating-point literal is of type float if it ends with the letter **F or f**; otherwise its type is double and it can optionally end with the letter D or d. 
-3.
+   1. An integer literal is of type long if it ends with the letter **L or l**; otherwise it is of type int.
+   2. A floating-point literal is of type float if it ends with the letter **F or f**; otherwise its type is double and it can optionally end with the letter D or d. 
