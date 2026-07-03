@@ -56,3 +56,4 @@ public class House {
     }
 }
 ```
+- Objects as Attributes
