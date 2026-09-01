@@ -35,5 +35,6 @@ core idea
 ### summary 
 1. 二分查找 
    1. 注意边界值是否取到 三处不同 用边界值判断 右边界是否可取
+         1. **根据查找区间的定义来作边界处理** 
    2. 注意nums[middle] 与 target比较
    3. middle = left + （right - left） /2；非负且防止溢出
