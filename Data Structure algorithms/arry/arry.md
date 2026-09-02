@@ -4,7 +4,7 @@
     1. 注意删除或增添元素后 其他元素是否要移动
 2. 下标从0开始
 3. 元素无法删除，只能用0覆盖实现，arry大小从声明时确定
-
+---
 ##### 二分查找
 ###### prerequisite：sorted
 
@@ -33,8 +33,27 @@ core idea
     }
 ```
 ### summary 
-1. 二分查找 
-   1. 注意边界值是否取到 三处不同 用边界值判断 右边界是否可取
-         1. **根据查找区间的定义来作边界处理** 
-   2. 注意nums[middle] 与 target比较
-   3. middle = left + （right - left） /2；非负且防止溢出
+
+1. 注意边界值是否取到 三处不同 用边界值判断 右边界是否可取
+   1. **根据查找区间的定义来作边界处理** 
+2. 注意nums[middle] 与 target比较
+3. middle = left + （right - left） /2；非负且防止溢出
+
+---
+##### element_remove
+也就是实现库函数erase
+1. 时间复杂度O(n)
+2. 删除目标元素 且将后面的元素向前移动
+3. 最后返回数组长度
+##### double-pointer-solution O(n)
+1. 快指针寻找新数组的元素
+      1. 新数组就是不含目标元素的数组
+2. 慢指针就是新数组的下标 最终返回慢指针就是返回数组长度
+### summary
+1. core idea： 将非目标值通过快指针赋值给慢指针，最终得到新数组
+2. 条件 
+   ```cpp
+   if(nums[fastIndex] != val){
+        nums[slowIndex++]=nums[fastIndex];
+   }
+```
