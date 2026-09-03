@@ -4,40 +4,48 @@ using namespace std;
 
 class solution{
 public:
-    int removeElement(vector<int>& nums,int val){
-        int slowIndex = 0;
-        
-        for(int fastIndex = 0; fastIndex < nums.size(); fastIndex ++){
-            if(nums[fastIndex] != val){
-                nums[slowIndex++] = nums[fastIndex];
-            
+    vector<int> sortedSquare(vector<int>& A){
+         int k = A.size()-1;
+         vector<int> result(A.size(),0);
+         for(int i = 0, j = A.size() - 1 ; i <= j;){
+            if(A[i] * A[i] > A[j] * A[j]){
+                result[k--] = A[i] * A[i];
+                
+                i++;
+            } else {
+                result[k--] = A[j] * A[j];
+
+                j--;
             }
-        }
-        return slowIndex;
+         }
+         return result;
     }
 };
 
 int main(){
     vector<int> v;
 
-    v.push_back(10);
-    v.push_back(12);
-    v.push_back(13);
-    v.push_back(14);
-    v.push_back(15);
-    v.push_back(16);
-    v.push_back(17);
-    v.push_back(19);
+    v.push_back(-5);
+    v.push_back(-3);
+    v.push_back(-2);
+    v.push_back(0);
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(5);
     
     solution sol;
 
-    int val = 12;
+    for(int i = 0; i < v.size(); i++){
+        cout <<v[i]<<" ";
+        cout << endl;   
+    }
+    
+    cout<<"------------"<<endl;
 
-    int newLength = sol.removeElement(v,val);
+    v=sol.sortedSquare(v);
 
-    cout <<"new length "<<newLength<< endl;
-
-    for(int i = 0; i < newLength; i++){
+    for(int i = 0; i < v.size(); i++){
         cout <<v[i]<<" ";
         cout << endl;   
     }
