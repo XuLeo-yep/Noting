@@ -69,4 +69,12 @@
 1.  int k = A.size() - 1; //the index of the result array;
 2. for (int i = 0, j = A.size() - 1; i <= j; )
 ```
-
+---
+### **209minSubArrayLen** 
+> **core** **idea**
+> 1. double-pointer 
+>       1. j -> the end of the slide window
+>       2. i -> the start of the slide window     
+> 2. actually double loop
+>       1. for j -> find all the subArray of eligible elements until the end;
+>       2. while(sum >= s) ... sum -= nums [i--]; //find the minSubArray;
