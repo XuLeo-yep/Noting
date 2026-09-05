@@ -5,7 +5,7 @@ using namespace std;
 class solution{
 public:
     int minSubArrayLen(vector<int>& A,int s){
-        int result = A.size();
+        int result = INT32_MAX;
         int subLen = 0;
         int i = 0;
         int sum = 0;
@@ -19,7 +19,7 @@ public:
             }
             
         }
-        return result == A.size() ? 0 : result;
+        return result == INT32_MAX ? 0 : result;
     }
 };
 

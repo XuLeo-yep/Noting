@@ -78,3 +78,13 @@
 > 2. actually double loop
 >       1. for j -> find all the subArray of eligible elements until the end;
 >       2. while(sum >= s) ... sum -= nums [i--]; //find the minSubArray;
+
+---
+### **209minSubArrayLen** 
+> **core** **idea**
+>1. left-inclusive and right-exclusive;
+>2. the num of loop equals n/2;
+>3. res[i][j]
+>       1. i means the row of the array;
+>       2. j means the column of the array;
+>4. if n%2 == 1, the center of the res need to be filled ;
