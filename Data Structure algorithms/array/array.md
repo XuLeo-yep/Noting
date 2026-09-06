@@ -76,11 +76,11 @@
 >       1. j -> the end of the slide window
 >       2. i -> the start of the slide window     
 > 2. actually double loop
->       1. for j -> find all the subArray of eligible elements until the end;
+>       1. for j -> find all the subArray of eligible elements **until** **the** **end**;
 >       2. while(sum >= s) ... sum -= nums [i--]; //find the minSubArray;
 
 ---
-### **209minSubArrayLen** 
+### **59spiralMatrix** 
 > **core** **idea**
 >1. left-inclusive and right-exclusive;
 >2. the num of loop equals n/2;
