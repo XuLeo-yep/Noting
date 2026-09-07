@@ -90,3 +90,9 @@
 >       1. i means the row of the array;
 >       2. j means the column of the array;
 >4. if n%2 == 1, the center of the res need to be filled ;
+
+---
+### **intervalSum** 
+> **core** **idea**
+> 1. 类比高中物理打点计时器实验，求中间路程由两条都是从零起始的纸带相减得出；
+> 2. 若a==0， sum = p[b];
