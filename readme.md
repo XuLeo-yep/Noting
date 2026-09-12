@@ -49,11 +49,12 @@
 
 ## **English**
 ### **IELTS**
->       1. words
->       2. reading ipad (30min) 2/3
->       3. listing cnn 10 (30min) 1/3
+>1. words
+>       1. 不要幻想单词能解决一切问题 ，想看懂文章 词汇量仅仅是一个维度  
+>2. reading ipad (30min) 2/3
+>3. listing cnn 10 (30min) 1/3
 ### **Band** **six**
->       1. writing & translation
+>1. writing & translation
 
 1. 国庆第一天解决雅思怎么线上刷题
 2. 国庆开始回译 
