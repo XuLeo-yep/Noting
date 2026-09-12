@@ -31,11 +31,11 @@
 |before class|text book on ipad|
 |before class|[DDCA bilibili](https://www.bilibili.com/video/BV13nyeYYECw/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click) **at my pace** (30min video+ 15 min noting)|
 |during class|listening|
-### **EG**
+### **SE**
 |    **Time**    |         **Tasks**           | 
 |----------------|-------------------------|
 |before class|text book on ipad|
-|before class|[EG bilibili](https://www.bilibili.com/video/BV1Pihc64E6d/?spm_id_from=333.337.search-card.all.click&vd_source=ff29fcf082acbdba6fa39c48d17c61bc) **at my pace** (30min video+ 15 min noting)|
+|before class|[SE bilibili](https://www.bilibili.com/video/BV1Pihc64E6d/?spm_id_from=333.337.search-card.all.click&vd_source=ff29fcf082acbdba6fa39c48d17c61bc) **at my pace** (30min video+ 15 min noting)|
 |during class|listening|
 ### **Probability**
 |    **Time**    |         **Tasks**           | 
