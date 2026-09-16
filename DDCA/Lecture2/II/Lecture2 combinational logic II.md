@@ -13,4 +13,26 @@
    1. Power used when the signal do not change.
    2. v * I (leaked current)
 3. Energy Consumption = power * time
+---
+>Combinational Logic vs. Sequential Logic
+![](blog-2026-09-15-19-58-12.png)
+---
+## Boolean Logic Equations
+### Functional Specification
+1. Unique **mapping** from input values to output values.
+2. The **same** input values produce the same output values every time.
+3. No **memory**(combinational design)
 
+### SOP 1
+>F = OR of all input variable combination that result in a 1;
+![](blog-2026-09-15-20-19-49.png)
+>SOP form does **NOT** directly lead to the **minimal** logic.
+### POS 0
+>F = AND of all input variable combination that result in a 0;
+![](blog-2026-09-15-20-29-17.png)
+---
+## Decoder
+![](blog-2026-09-16-08-42-43.png)
+---
+## Selector
+![](blog-2026-09-16-08-45-53.png)
