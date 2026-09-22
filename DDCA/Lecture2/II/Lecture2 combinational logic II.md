@@ -36,3 +36,13 @@
 ---
 ## Selector
 ![](blog-2026-09-16-08-45-53.png)
+> | S | C |
+> |---|---|
+> | 0 | A |
+> | 1 | B |
+---
+## Full Adder
+![](blog-2026-09-21-09-32-38.png)
+---
+## Programmable Logic Array
+> a way of configuring the circuits such that they are in sum of SOP form.
